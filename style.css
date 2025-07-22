@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #0d0d0d;
+  color: #f0c040;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+h1, h2 {
+  color: #f8d060;
+  margin-bottom: 1rem;
+}
+
+.wallet {
+  margin: 1rem 0;
+  font-size: 1rem;
+}
+
+.connect-btn {
+  padding: 10px 20px;
+  background-color: #f0c040;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #000;
+}
+
+.connect-btn:hover {
+  background-color: #ffd75d;
+}
+
+.stake-form {
+  background: #1a1a1a;
+  padding: 1.5rem;
+  border-radius: 12px;
+  margin-top: 2rem;
+}
+
+.stake-form input, .stake-form select {
+  width: 80%;
+  padding: 0.7rem;
+  margin: 0.5rem 0;
+  border-radius: 6px;
+  border: 1px solid #f0c040;
+  background-color: #000;
+  color: #f0c040;
+}
+
+.stake-form button {
+  padding: 0.7rem 1.5rem;
+  margin-top: 1rem;
+  background-color: #f0c040;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.stake-form button:hover {
+  background-color: #ffd75d;
+}
+
+.stakes {
+  margin-top: 2rem;
+}
+
+.stake-box {
+  background-color: #1a1a1a;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #f0c04033;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.stake-box p {
+  margin: 0.4rem 0;
+}
+
+.stake-box button {
+  margin: 0.3rem;
+  padding: 0.5rem 1rem;
+  background-color: #f0c040;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.stake-box button:hover {
+  background-color: #ffd75d;
+}
+
+@media (max-width: 600px) {
+  .stake-form input, .stake-form select {
+    width: 100%;
+  }
+}
